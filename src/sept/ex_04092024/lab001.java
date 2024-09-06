@@ -4,6 +4,7 @@ public class lab001 {
 
     public static void main(String[] args)  {
 
+         // just comment
         System.out.println("Hello Irshad welcome to the world of github lab001");
 
     }
