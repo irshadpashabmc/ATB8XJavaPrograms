@@ -12,7 +12,7 @@ public class lab006 {
         System.out.println(a+b-a+b);//40
         System.out.println(a+d /a+c);//4.66
         System.out.println(2.0F%5.0F);
-        
+
 
 
 
