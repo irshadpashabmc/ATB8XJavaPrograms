@@ -35,7 +35,7 @@ public class ATBStudent {
 
         System.out.println("Student 6 method");
 
-        return 0;
+        return 23;
     }
 
     int Student7(int a, int b) {
@@ -47,7 +47,10 @@ public class ATBStudent {
         result = a + b;
         return result;
     }
-
+String Student() {
+      //  System.out.println("this is string variable");
+        return "student";
+}
 
     public static void main(String[] args) {
 
@@ -89,6 +92,10 @@ public class ATBStudent {
 
         System.out.println("Student 7:Printing from the main method:" +res);
 
+        ATBStudent Str = new ATBStudent();
+
+          String Str1 = Str.Student();
+          System.out.println(Str1);
 
     }
 }
